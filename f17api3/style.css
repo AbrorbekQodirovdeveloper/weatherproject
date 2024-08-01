@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+input {
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: x-large;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 25%;
+    height: 3rem;
+    border-radius: 20px;
+    background: #3a7bd5;
+    border: none;
+    color: aliceblue;
+    font-size: x-large;
+}
+.search{
+     margin-top: 3rem;
+}
+
+.weatherbox {
+
+    gap: 1rem;
+    margin-top: 5rem;
+
+    border: 1px solid aqua;
+}
+
+.weatherbox img {
+
+    position: relative;
+    left: 40%;
+}
+
+.weatherbox h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.weatherbox h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
